@@ -1,0 +1,8 @@
+.root {
+    -fx-background-image: url("/Applications/RE.jpg");
+    -fx-background-size: cover;
+}
+.anchor-pane {
+    -fx-background-image: url("/Applications/SceneBuilder.app/demo4/src/main/resources/com/example/demo4/RE.jpg");
+    -fx-background-size: cover;
+}

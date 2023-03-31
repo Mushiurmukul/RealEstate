@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mukul.searching">
+    <children>
+        <VBox prefHeight="811.0" prefWidth="295.0" style="-fx-background-color: #ffff66;">
+            <children>
+                <Group />
+                <VBox />
+                <Button fx:id="SearchList" mnemonicParsing="false" onAction="#Property" prefHeight="761.0" prefWidth="295.0" text="Property" textAlignment="CENTER" wrapText="true">
+                    <VBox.margin>
+                        <Insets top="23.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+        <VBox layoutX="294.0" layoutY="-4.0" prefHeight="94.0" prefWidth="733.0" style="-fx-background-color: #996699;">
+            <children>
+                <Label alignment="CENTER" blendMode="GREEN" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="734.0" text="SEARCHING" textFill="#16f9f5">
+                    <font>
+                        <Font name="System Bold" size="32.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <Label alignment="CENTER" layoutX="333.0" layoutY="103.0" prefHeight="35.0" prefWidth="193.0" text="Property Details:" />
+        <Label alignment="CENTER" layoutX="333.0" layoutY="218.0" prefHeight="26.0" prefWidth="193.0" text="Price" />
+        <RadioButton fx:id="rentRadioBtn" layoutX="470.0" layoutY="158.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" text="Rent" />
+        <RadioButton fx:id="saleRadioBtn" layoutX="675.0" layoutY="159.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" text="Sale" />
+        <TextField fx:id="priceField" layoutX="563.0" layoutY="218.0" />
+        <Label alignment="CENTER" layoutX="333.0" layoutY="321.0" prefHeight="26.0" prefWidth="193.0" text="District" />
+        <TextField fx:id="districtField" layoutX="563.0" layoutY="323.0" />
+        <Label alignment="CENTER" layoutX="332.0" layoutY="453.0" prefHeight="26.0" prefWidth="193.0" text="Property Type" />
+        <RadioButton fx:id="landRadioBtn" layoutX="563.0" layoutY="448.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" text="Land" />
+        <RadioButton fx:id="flatRadioBtn" layoutX="712.0" layoutY="448.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" text="Flat" />
+        <Button fx:id="Search" layoutX="571.0" layoutY="519.0" mnemonicParsing="false" onAction="#Searching" prefHeight="26.0" prefWidth="170.0" text="SEARCH" />
+        <Label fx:id="messageLabel" alignment="CENTER" layoutX="569.0" layoutY="130.0" prefHeight="26.0" prefWidth="223.0" textFill="RED" />
+    </children>
+</AnchorPane>

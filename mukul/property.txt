@@ -1,0 +1,3 @@
+1000,mukul,cumilla,01701053141,Land,cumilla,Rent
+1000,mukul,dhaka,01701053141,Flat,dhaka,Sale
+1000,rasel,bori,bori,Land,bori,Rent
